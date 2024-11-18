@@ -12,9 +12,6 @@ export default function Page() {
         <Link className="mb-4" href="/pages-route?link=3">
           pages route link 3 - broken: query param defaults to link 1
         </Link>
-        <Link prefetch={false} className="mb-4" href="/pages-route?link=4">
-          pages route link 4 - works: prefetch=false
-        </Link>
         <Link href="/app-route?link=2">app-route link 1 - works</Link>
         <Link href="/app-route?link=2">app-route link 2 - works</Link>
         <Link href="/app-route?link=3">app-route link 3 - works</Link>
